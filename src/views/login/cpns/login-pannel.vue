@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <h2>后台管理系统</h2>
+    <h2 style="color: rgb(64, 158, 255)">后台管理系统</h2>
     <div class="pannel">
       <el-tabs type="border-card" stretch v-model="activeName">
         <!-- stretch赋值不了 -->

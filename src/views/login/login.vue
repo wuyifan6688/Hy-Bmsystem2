@@ -15,8 +15,6 @@ import loginPannel from './cpns/login-pannel.vue'
   justify-content: center;
   align-items: center;
   width: 100%;
-  // background-image: url(@/assets/img/OGC.gif);
-  // background-repeat: no-repeat;
-  // background-size: cover;
+  background-color: #fff;
 }
 </style>
