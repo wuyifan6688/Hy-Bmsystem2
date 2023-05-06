@@ -14,12 +14,12 @@ class HYRequest {
       (res) => res.data,
       (err) => err
     )
-    this.instance.interceptors.request.use(
-      config.interceptors?.requestSuccessFn
-    )
+    // this.instance.interceptors.request.use(
+    //   config.interceptors?.requestSuccessFn
+    // )
 
     this.instance.interceptors.request.use(
-      config.interceptors?.requestSuccessFn,
+      config?.interceptors?.requestSuccessFn,
       config.interceptors?.requestFailureFn
     )
     this.instance.interceptors.response.use(
